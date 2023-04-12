@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.container {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    font-size: 24px !important;
+    padding: 0.01em 16px;
+    display: table;
+    content: "";
+    clear: both;
+    width: 100%;
+}
+
+header {
+    display: block;
+}
+
+.left-button {
+    color: #000;
+    background-color: #fff;
+    float: left;
+    user-select: none;
+    border: none;
+    display: flex;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px !important;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.left-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.right-button {
+    color: #000;
+    background-color: #fff;
+    user-select: none;
+    border: none;
+    float: right;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.right-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.row {
+    display: flex;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.half {
+    font-family: "Raleway", Arial, sans-serif;
+    width: 100%;
+}
+
+.half-1 {
+    font-family: "Raleway", Arial, sans-serif;
+    width: 100%;
+
+}
+
+.row img {
+    margin-bottom: -8px;
+
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+    overflow: clip;
+    font-family: Verdana, sans-serif;
+}
+
+.grey-section {
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+footer {
+    display: block;
+}
+
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.image {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: block;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.text-pink {
+    color: #e91e63;
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+label {
+    cursor: default;
+}
+
+b {
+    font-weight: bolder;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.border {
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    appearance: auto;
+
+
+}
+
+.btn {
+    color: #fff;
+    background-color: #616161;
+    display: block;
+    width: 100%;
+    user-select: none;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+button {
+    text-transform: none;
+    writing-mode: horizontal-tb;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.text-green:hover {
+    color: #4CAF50;
+}
+
+@media(max-width:601px) {
+    .row {
+        display: grid;
+    }
+}
